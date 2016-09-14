@@ -1,0 +1,232 @@
+﻿/*
+    Ginger Bakes
+	Author: Michael Peterson
+	Date: 6.27.2016
+	Version: 1.0
+	Filename:			dessertstyles.css
+	Supporting files: 	
+	
+
+*/
+
+/* Section Styles */
+/* Body styles */
+body {
+	margin: 0px auto;
+	background-image: url(background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+/* Styles for the main Header. */
+.mainHeader h1 {
+	background-color: Gainsboro;
+	color: white;
+	color: rgba(255, 255, 255, 0.8);
+	text-shadow: black 0px 0px 3px,
+				 green 4px 4px 4px,
+				 red 1px 1px 30px;
+	font-size: 84px;
+	text-align: center;
+	font-family: 'Tangerine', serif;
+	height:140px;
+	margin: 0px;
+	width: 100%;
+	padding: 20px;
+}
+
+header h1 {
+	border-bottom: 2px solid green;
+}
+
+/* Styles for the Top Nav Bar. */
+.topNav li {
+	display: block;
+	float: left;
+	line-height: 32px;
+	text-align: center;
+	width: 15%;
+	background-color: SpringGreen;
+	margin: 10px;
+	font-family: 'Tangerine', serif;
+	font-size:26px;
+	letter-spacing: 2px;
+}
+
+.topNav li a {
+	color: black;
+}
+
+.topNav li a:hover {
+	color: rgb(218,112,214);
+}
+
+/* Styles for the About Me section. */
+.aboutMe {
+	color: black;
+	font-size: 38px;
+	font-family: 'Tangerine', serif;
+	width: 20%;
+	height: 50%;
+	margin-top: 25px;
+	background-color: GhostWhite;
+	float: right;
+	border: 3px solid rgb(204, 0, 0);
+	 -moz-border-radius: 15px;
+	 border-radius: 15px;
+}
+
+aside p {
+	margin: 10px;
+	font-size: 68%
+}
+
+/* Style for border image. */
+article #sayingImage {
+	text-align: center;
+	padding-left: 50px;
+	margin-left: 50px;
+	padding-top: 50px;
+}
+
+/* Border image style. */
+article #sayingImage {
+	border-width: 10px;
+	padding-bottom: 40px;
+	-o-border-image: url("FrameImage.jpg") 50 repeat;
+	-moz-border-image: url("FrameImage.jpg") 50 repeat;
+	-webkit-border-image: url("FrameImage.jpg") 50 repeat;
+	border-image: url("FrameImage.jpg") 50 repeat;
+	clear: left;
+}
+
+/* Two cupcake images styles. */
+section#photos {
+	display: block;
+	border-top: 2px solid red;
+	border-bottom: 2px solid red;
+	
+	
+}
+
+#photo3 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 100px;
+	
+	/* Create curved edges/shadows to images */
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	
+	-moz-box-shadow: inset rgba(0, 0, 0, 0.3) -5px, -5px, 10px;
+	-webkit-box-shadow: inset rgba(0, 0, 0, 0.3) -5px, -5px, 10px;
+	box-shadow: inset rgba(0, 0, 0, 0.3) -5px, -5px, 10px;
+}
+#photo4 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	o-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+#photo1 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#photo2 {
+	padding-right: 40px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* Styles for table. */
+section#optionsTable {
+	padding-top: 40px;
+	padding-bottom: 200px;
+	padding-left: 220px;
+}
+
+table.flavors {
+	border: 5px outset red;
+	border-collapse: collapse;
+	font-family: 'Tangerine', serif;
+	font-size: 22px;
+	width: 75%;
+}
+
+table.flavors th, table.flavors td {
+	border: 1px solid gray;
+}
+
+/* Table header styles. */
+table.flavors thead {
+	background-color: rgb(255, 255, 192);
+	color: black;
+}
+
+table.flavors thead tr {
+	height: 45px;
+}
+
+table.flavors thead tr th {
+	text-align: center;
+}
+
+/* Table body styles. */
+table.flavors tbody tr {
+	height: 40px;
+}
+
+table.flavors tbody td {
+	padding: 5px;
+	vertical-align: top;
+}
+
+table.flavors tbody tr td {
+	background-color: Gainsboro;
+}
+
+/* Styles for the first column. */
+table.flavors col.firstCol {
+	background-color: rgb(255, 255, 192);
+	width: 10%;
+}
+
+/* Styles for the remaining columns. */
+table.flavors col.options {
+	width: 15%;
+}
+
+/* Styles for the table caption. */
+table.flavors caption {
+	caption-side: bottom;
+	text-align: right;
+	color: white;
+	padding-right: 40px;
+	font-size: 32px;
+}
+
+/* Styles for the footer element. */
+footer {
+	text-align: center;
+	font-size: 1em;
+	font-style: normal;
+	font-variant: small-caps;
+	border-top: 1px solid black;
+	background-color: rgb(206, 212, 244);
+	width: 100%;
+}
+
+
+
